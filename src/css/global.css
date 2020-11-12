@@ -1,0 +1,18 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: url(../assets/desert.jpg) no-repeat, fixed, center ;
+    
+}
+
+.container{
+    display: flex;
+    width: 95%;
+    max-width: 1200px;
+    margin:auto;
+}

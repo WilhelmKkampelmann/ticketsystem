@@ -1,0 +1,20 @@
+{
+    "nav": {
+        "customer-service": "Kundenservice",
+        "about": "Über uns",
+        "home":  "Home",
+        "headline": "Ticketsystem",
+        "register": "Registrieren",
+        "login": "Login",
+        "german": "Deutsch",
+        "english": "Englisch"
+    },
+    "main": {
+        "input1": "Wählen Sie die Art des Problems aus",
+        "input2": "Wie dringend ist ihre Anfrage",
+        "input3": "Was ist Ihr Betreff",
+        "input4": "Beschreiben Sie Ihren Fehler",
+        "input5": "Geben Sie Ihre URL an",
+        "input6": "Geben Sie Ihre Kontaktdaten an"
+    }
+}
