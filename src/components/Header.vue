@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav class="nav-bar">
-      <h1 class="inline-block"> {{$t('nav.headline')}} </h1>
+      <h1 class="inline-block headline"> {{$t('nav.headline')}} </h1>
       <div class="nav-routes">
         <ul class="router-links">
           <li>
@@ -23,8 +23,8 @@
       </div>
       <div class="reg-login">
         <ul class="router-links">
-          <li><a href="#" class="inline-block router-link"> {{$t('nav.register')}} </a></li>
-          <li><a href="#" class="inline-block router-link"> {{$t('nav.login')}} </a></li>
+          <li><a href="#" class="inline-block router-link reg"> {{$t('nav.register')}} </a></li>
+          <li><a href="#" class="inline-block router-link login"> {{$t('nav.login')}} </a></li>
         </ul>
         <select class="custom-select" v-model="lang"  @change="selectLanguage($event)">
           <option value="de" class="option-language"> {{$t('nav.german')}} </option>
@@ -59,7 +59,8 @@ export default {
 
 <style scoped>
 header {
-  padding: 15px 3%;
+  padding: 8px 3%;
+  border-bottom: 2px solid rgb(250, 243, 243);
 }
 .nav-bar {
   display: flex;
@@ -71,15 +72,23 @@ header {
 .reg-login{
   display: flex;
 }
+.reg, .login{
+  border: 1px solid rgb(253, 103, 16);
+  border-radius: 5px;
+  margin-right: 1rem;
+  background: rgb(253, 103, 16);
+}
+
 .custom-select{
-  border: none;
-  background-color: transparent;
-  border: none;
+  background-color: rgb(253, 103, 16);
+  border: 1px solid rgb(253, 103, 16);
+  border-radius: 5px;
+  margin-right: 1rem;
   outline: none;
   
 }
 select option {
-    color: black;
+    color:  rgb(250, 243, 243);
     border-radius: 5px;
 }
 .router-links {
@@ -100,7 +109,7 @@ a, .custom-select{
               
               
 }
-a:hover{
+a:hover, .custom-select:hover{
   color: rgb(122, 191, 247);
 }
 ul {

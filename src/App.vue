@@ -28,6 +28,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: rgb(250, 243, 243);
+ 
 }
 
 #nav {

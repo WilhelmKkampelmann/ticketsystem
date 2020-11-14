@@ -15,7 +15,8 @@
 <style scoped>
 footer{
     color:rgb(255, 253, 253);
-    padding: 0.75rem 0;
+    padding-top: 1rem ;
+    
 }
 .container{
     display: flex;
